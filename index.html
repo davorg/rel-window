@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Relationship Planning Window Calculator</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery-1.11.0.min.js"><\/script>')</script>
+    <script>
+  $( document ).ready(function() {
+	$('#start').change(function() {
+    var date = new Date($(this).val());
+    var now  = new Date;
+    var days = Math.floor((now - date) / (1000 * 3600 * 24));
+    $('#length').html(days);
+    var then = now;
+    then.setDate(then.getDate() + days);
+    $('#end').html(then.toDateString());
+  });
+});
+    </script>
+  </head>
+  <body>
+    <h1>Relationship Planning Window Calculator</h1>
+    <p>When did the relationship start: <input type="date" id="start"></p>
+    <p>The relationship is <span id="length"></span> day(s) old.</p>
+    <p>Don't plan anything after <span id="end"></span>.<p>
+  </body>
+</html>
