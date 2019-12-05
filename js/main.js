@@ -1,10 +1,4 @@
 $( document ).ready(function() {
-  var start_date;
-  if (localStorage.rel_window_date) {
-    start_date = new Date(localStorage.rel_window_date);
-    $('#start').val(start_date.toISOString().substr(0, 10));
-    $('#start').change();
-  }
 
   $('#start').change(function() {
     var date = new Date($(this).val());
@@ -16,4 +10,11 @@ $( document ).ready(function() {
     $('#end').html(then.toDateString());
     localStorage.rel_window_date = date;
   });
+
+  var start_date;
+  if (localStorage.rel_window_date) {
+    start_date = new Date(localStorage.rel_window_date);
+    $('#start').val(start_date.toISOString().substr(0, 10));
+    $('#start').change();
+  }
 });
