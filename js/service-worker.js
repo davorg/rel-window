@@ -21,3 +21,28 @@ self.addEventListener('install', function(event) {
     }),
   );
 });
+
+self.addEventListener('activate', function(event) {
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        // delete old caches
+        cacheNames.map(function(cacheName) {
+          if (cacheName !== CACHE_NAME) {
+            return caches.delete(cacheName);
+          }
+        }),
+      );
+    }),
+  );
+});
+
+self.addEventListener('fetch', function(event) {
+  if (event.request.headers.get('accept').startsWith('text/html')) {
+    event.respondWith(
+      fetch(event.request).catch(error => {
+        return caches.match('index.html');
+      }),
+    );
+  }
+});
