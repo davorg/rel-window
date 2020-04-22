@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="1024" width="1024" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect height="120" style="fill: lightblue" width="840" x="92" y="152" />
+	<rect height="120" style="fill: red" width="120" x="212" y="272" />
+	<rect height="120" style="fill: red" width="120" x="332" y="272" />
+	<rect height="120" style="fill: red" width="120" x="572" y="272" />
+	<rect height="120" style="fill: red" width="120" x="692" y="272" />
+	<rect height="120" style="fill: red" width="120" x="92" y="392" />
+	<rect height="120" style="fill: red" width="120" x="212" y="392" />
+	<rect height="120" style="fill: red" width="120" x="332" y="392" />
+	<rect height="120" style="fill: red" width="120" x="452" y="392" />
+	<rect height="120" style="fill: red" width="120" x="572" y="392" />
+	<rect height="120" style="fill: red" width="120" x="692" y="392" />
+	<rect height="120" style="fill: red" width="120" x="812" y="392" />
+	<rect height="120" style="fill: red" width="120" x="212" y="512" />
+	<rect height="120" style="fill: red" width="120" x="332" y="512" />
+	<rect height="120" style="fill: red" width="120" x="452" y="512" />
+	<rect height="120" style="fill: red" width="120" x="572" y="512" />
+	<rect height="120" style="fill: red" width="120" x="692" y="512" />
+	<rect height="120" style="fill: red" width="120" x="332" y="632" />
+	<rect height="120" style="fill: red" width="120" x="452" y="632" />
+	<rect height="120" style="fill: red" width="120" x="572" y="632" />
+	<rect height="120" style="fill: red" width="120" x="452" y="752" />
+	<rect height="720" rx="15" ry="15" style="fill-opacity: 0; stroke: black; stroke-width: 15" width="840" x="92" y="152" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="212" x2="212" y1="152" y2="872" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="332" x2="332" y1="152" y2="872" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="452" x2="452" y1="152" y2="872" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="572" x2="572" y1="152" y2="872" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="692" x2="692" y1="152" y2="872" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="812" x2="812" y1="152" y2="872" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="92" x2="932" y1="272" y2="272" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="92" x2="932" y1="392" y2="392" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="92" x2="932" y1="512" y2="512" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="92" x2="932" y1="632" y2="632" />
+	<line style="fill-opacity: 0; stroke: black; stroke-width: 15" x1="92" x2="932" y1="752" y2="752" />
+	<text dominant-baseline="central" style="font-family: Arial; font-size: 60; font-weight: bold" text-anchor="middle" x="152" y="212">S</text>
+	<text dominant-baseline="central" style="font-family: Arial; font-size: 60; font-weight: bold" text-anchor="middle" x="272" y="212">M</text>
+	<text dominant-baseline="central" style="font-family: Arial; font-size: 60; font-weight: bold" text-anchor="middle" x="392" y="212">T</text>
+	<text dominant-baseline="central" style="font-family: Arial; font-size: 60; font-weight: bold" text-anchor="middle" x="512" y="212">W</text>
+	<text dominant-baseline="central" style="font-family: Arial; font-size: 60; font-weight: bold" text-anchor="middle" x="632" y="212">T</text>
+	<text dominant-baseline="central" style="font-family: Arial; font-size: 60; font-weight: bold" text-anchor="middle" x="752" y="212">F</text>
+	<text dominant-baseline="central" style="font-family: Arial; font-size: 60; font-weight: bold" text-anchor="middle" x="872" y="212">S</text>
+	<!--
+	Generated using the Perl SVG Module V2.84
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+	-->
+</svg>
