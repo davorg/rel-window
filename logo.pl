@@ -76,7 +76,7 @@ sub red_rect {
 
 sub days {
   my $i = 0;
-  for (qw[S M T W T F S]) {
+  for (qw[M T W T F S S]) {
     $logo->text(
       x => $cal_left + ($i * $cell_dimension) + ($cell_dimension / 2),
       y => $cal_top + ($cell_dimension / 2),
