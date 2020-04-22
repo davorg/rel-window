@@ -25,6 +25,7 @@ my $line_style = {
 my $logo = SVG->new(width => $width, height => $height);
 
 header_rect();
+cal_background();
 heart();
 grid();
 days();
@@ -89,6 +90,18 @@ sub days {
     )->cdata($_);
     ++$i;
   }
+}
+
+sub cal_background {
+  $logo->rect(
+    x => $cal_left,
+    y => $cal_top,
+    width => $cal_width,
+    height => $cal_height,
+    rx => 15,
+    ry => 15,
+    style => { fill => 'white' },
+  );
 }
 
 sub grid {

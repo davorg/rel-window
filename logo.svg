@@ -2,6 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg height="1024" width="1024" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<rect height="120" style="fill: lightblue" width="840" x="92" y="152" />
+	<rect height="720" rx="15" ry="15" style="fill: white" width="840" x="92" y="152" />
 	<rect height="120" style="fill: red" width="120" x="212" y="272" />
 	<rect height="120" style="fill: red" width="120" x="332" y="272" />
 	<rect height="120" style="fill: red" width="120" x="572" y="272" />
