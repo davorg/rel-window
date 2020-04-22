@@ -81,7 +81,7 @@ sub days {
       x => $cal_left + ($i * $cell_dimension) + ($cell_dimension / 2),
       y => $cal_top + ($cell_dimension / 2),
       'text-anchor' => 'middle',
-      'dominant-baseline' => 'central',
+      dy => '0.35em',
       style => {
         'font-family' => 'Arial',
         'font-size' => $cell_dimension * .5,
